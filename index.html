@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tomas Kuruc</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="side-nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#university">University</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+          </ul>
+
+          <span class="nav-indicator"></span>
+          <button id="theme-toggle">Dark</button>
+        </nav>
+    </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+Hi, I’m Tomas Kuruc. I have a BSc in Mathematics and Computer Science and experience in data analysis, software development, and hardware projects, including an internship at RevolutionG Gaming. I’m a problem solver with a creative mindset and strong communication skills, and I enjoy working with teams to turn ideas into innovative solutions. Please explore my portfolio and feel free to get in touch if anything catches your interest — I’m actively seeking opportunities to apply my skills and make an impact.
+<br><br>
+Contact:<br>
+tomask@tuta.io
+
+      </p>
+    </section>
+
+    <section id="university">
+      <h2>University</h2>
+      <p>
+I graduated with a BSc in Mathematics and Computer Science in November 2025, where I developed a strong foundation in both theoretical and practical computing. I achieved high grades in key modules such as Web Design, Advanced Data Structures, and Numerical Analysis, which strengthened my skills in algorithmic thinking, software development, and problem-solving.
+<br><br>
+Throughout university, I actively contributed to the student community as a member of the esports committee, as well as the volleyball and badminton societies, balancing teamwork and leadership alongside my studies. I collaborated on a variety of student projects, including designing a better Linux taskbar and building an ortholinear mechanical keyboard from the ground up. Additionally, I contributed to the coding efforts for <a href="https://www.strathais.com/strathcube25" target="_blank">STRATHcube</a>, a satellite project led by the University of Strathclyde, gaining experience in real-world, mission-critical software development.
+      </p>
+    </section>
+
+    <section id="internship">
+      <h2>Internship</h2>
+      <p>
+        During my internship at RevolutionG Gaming, I contributed to data analysis and market research for gaming and esports events on the West Coast of the United States. I worked extensively with Google Looker Studio and BigQuery, sharpening my SQL skills to a professional level, and leveraged Excel and Power BI for data visualisation and reporting. The role also strengthened my communication and collaboration skills, as I coordinated with teams to organise successful gaming events while translating complex data insights into actionable recommendations.
+      </p>
+
+
+      <p>
+        Gained professional proficiency in SQL, including:
+      <ul>
+        <li>Window functions and ranking</li>
+        <li>Common Table Expressions</li>
+        <li>Subqueries and correlated subqueries</li>
+        <li>Joins and advanced aggregations</li>
+        <li>Optimising query performance</li>
+      </ul>
+      </p>
+
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <button class="project-header">
+          <span>Ultralight Gaming Mouse</span>
+          <span class="chevron">▾</span>
+        </button>
+
+        <div class="project-content">
+          <p>
+I’m currently developing an ultralight gaming mouse with a focus on minimal design, performance, and user experience. The project began using MicroPython on an RP2040, which allowed me to quickly prototype core functionality, but I later transitioned to Arduino C++ for greater control and efficiency. This shift gave me a strong understanding of SPI communication, as well as hands-on experience with microcontroller programming and hardware integration.
+<br><br>
+The initial prototype used an RP2040, but I’ve since moved to a Nordic chip to achieve higher polling rates and lower wireless latency, essential for competitive gaming. Throughout the design process, I sculpted a physical model by hand and then employed photogrammetry to create a precise 3D digital model, which I use to refine the design in CAD before 3D printing and testing.
+<br><br>
+Looking ahead, I am working on building a brand called DPIlabs, with the goal of making this ultralight, high-performance mouse accessible to other gamers. The project has been a major learning experience, teaching me about hardware-software integration, sensor communication protocols, 3D modeling, prototyping, and product design, while also giving me insight into the end-to-end process of turning an idea into a tangible product.
+          </p>
+
+        </div>
+      </div>
+
+
+
+
+      <div class="project-card">
+        <button class="project-header">
+          <span>ASCII Art Converter</span>
+          <span class="chevron">▾</span>
+        </button>
+
+        <div class="project-content">
+          <p>
+            I built an ASCII art converter in Python that analyses image pixel brightness and maps it to character density to recreate images using text. This project strengthened my understanding of image processing, algorithmic thinking, and efficient data handling, while reinforcing clean code structure and debugging practices.
+          </p>
+
+          <div class="image-container">
+            <img src="mountains.jpg" class="image default">
+            <img src="asciimountains.png" class="image hover">
+          </div>
+
+          <ul>
+            <li>Image processing and brightness mapping</li>
+            <li>Custom character sets and scaling</li>
+            <li>Client-side processing</li>
+          </ul>
+
+          <a href="https://github.com/akatomka/ASCII-art-generator" target="_blank">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <button class="project-header">
+          <span>Wordle Solver</span>
+          <span class="chevron">▾</span>
+        </button>
+
+        <div class="project-content">
+          <p>
+            I built a Python-based Wordle solver that uses logical elimination and pattern matching to suggest optimal guesses. The project strengthened my skills in algorithm design, data filtering, and string manipulation, while also improving my problem-solving and debugging abilities.
+          </p>
+
+          <ul>
+            <li>Implemented efficient algorithms to filter possible words based on previous guesses</li>
+            <li>Practiced string manipulation and pattern matching in Python</li>
+            <li>Developed strategies for logical deduction and probability-based guessing</li>
+            <li>Enhanced debugging, testing, and code optimisation skills</li>
+          </ul>
+
+          <a href="https://github.com/akatomka/Python-Wordle-solver" target="_blank">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skill-category">
+        <h3>Programming & Software Development</h3>
+        <ul>
+          <li><strong>Python</strong> – data analysis, scripting, automation, and building tools like a Wordle solver and ASCII art converter</li>
+          <li><strong>Arduino C++ & MicroPython</strong> – embedded systems, SPI communication, prototyping hardware projects including an ultralight gaming mouse</li>
+          <li><strong>Web Development</strong> – HTML, CSS, and JavaScript; designed responsive layouts and web interfaces</li>
+          <li><strong>Software Tools & Libraries</strong> – experience with libraries like <em>Pillow</em>, <em>NumPy</em>, and <em>Adafruit HID</em> for practical projects</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Data Analysis & Visualization</h3>
+        <ul>
+          <li><strong>SQL</strong> – BigQuery, advanced queries, window functions, CTEs, joins, and query optimization</li>
+          <li><strong>Excel & Power BI</strong> – building dashboards, reports, and interactive visualizations to present actionable insights</li>
+          <li><strong>Data Processing & Research</strong> – performing market analysis, trend identification, and generating data-driven recommendations</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Hardware & Prototyping</h3>
+        <ul>
+          <li><strong>PCB Design & Sensors</strong> – working with PixArt, Nordic and Raspberry Pi chips, SPI communication, microcontroller integration</li>
+          <li><strong>3D Modeling & Design</strong> – using photogrammetry to create accurate 3D models from physical prototypes, CAD refinement, and 3D printing</li>
+          <li><strong>Product Design & Prototyping</strong> – developing functional prototypes like an ultralight wireless gaming mouse and ortholinear mechanical keyboard</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li><strong>Problem Solving & Creativity</strong> – designing innovative solutions from scratch, balancing functionality with minimalistic design</li>
+          <li><strong>Communication & Teamwork</strong> – presenting insights, collaborating on projects, and coordinating events such as esports tournaments</li>
+          <li><strong>Project Management</strong> – taking projects from concept to prototype, including planning, iteration, and testing</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Tomas Kuruc</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
