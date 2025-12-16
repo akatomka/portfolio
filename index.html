@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  
 
     <header>
         <nav class="side-nav">
@@ -77,11 +78,11 @@ Throughout university, I actively contributed to the student community as a memb
 
         <div class="project-content">
           <p>
-I’m currently developing an ultralight gaming mouse with a focus on minimal design, performance, and user experience. The project began using MicroPython on an RP2040, which allowed me to quickly prototype core functionality, but I later transitioned to Arduino C++ for greater control and efficiency. This shift gave me a strong understanding of SPI communication, as well as hands-on experience with microcontroller programming and hardware integration.
-<br><br>
-The initial prototype used an RP2040, but I’ve since moved to a Nordic chip to achieve higher polling rates and lower wireless latency, essential for competitive gaming. Throughout the design process, I sculpted a physical model by hand and then employed photogrammetry to create a precise 3D digital model, which I use to refine the design in CAD before 3D printing and testing.
-<br><br>
-Looking ahead, I am working on building a brand called DPIlabs, with the goal of making this ultralight, high-performance mouse accessible to other gamers. The project has been a major learning experience, teaching me about hardware-software integration, sensor communication protocols, 3D modeling, prototyping, and product design, while also giving me insight into the end-to-end process of turning an idea into a tangible product.
+One of my key projects has been developing custom firmware for a gaming mouse I designed and built from the ground up. The first version ran on an RP2040 using CircuitPython, where I implemented USB HID input handling and SPI communication with PixArt optical sensors, before later porting the firmware to Arduino C++ for greater control and performance. I’m currently working on a second-generation version based on Nordic microcontrollers, focusing on lower latency, more efficient SPI handling, and overall higher performance.
+            <br><br>
+          <a href="https://github.com/akatomka/mouse-firmware" target="_blank">
+            View on GitHub →
+          </a>
           </p>
 
         </div>
@@ -141,6 +142,45 @@ Looking ahead, I am working on building a brand called DPIlabs, with the goal of
           </a>
         </div>
       </div>
+
+      <div class="project-card">
+        <button class="project-header">
+          <span>Homelab</span>
+          <span class="chevron">▾</span>
+        </button>
+
+        <div class="project-content">
+          <p>
+            I've built two homelabs from old and spare hardware, first, repurposing my old laptop for a minecraft and web hosting server as well as a place to host a web based chatroom only open for 1 hour a day. The other is a nas for my family's photo backups, and media.
+          </p>
+
+          <ul>
+            <li>Solid understanding of networking in a practical setting</li>
+            <li>Experiance with various operating systems, namely ubuntu and TrueNAS</li>
+            <li>I've enployed methods and safety features as I've learned from TryHackMe's SAL1 course</li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="project-card">
+        <button class="project-header">
+          <span>Websites</span>
+          <span class="chevron">▾</span>
+        </button>
+
+        <div class="project-content">
+          <p>
+            I'm grouping all my websites that I've designed over the years here. My most recent website I've built is the one you are currently on, hosting this static webpage on github pages. My first websites were a series of drawing webite using javascript canvas, with features like undos and downloads. I've designed custom store fronts for shopify stores like yaji.online (a keyboard parts retailer) and im working on a valorant lineups website called cypher.cam. I've also built a simple chatroom open only for 1 hour a day.
+          </p>
+
+          <ul>
+            <li>Experiance working with JS, Liquid and React</li>
+            <li>Building websites from the ground up and hosting them myself</li>
+          </ul>
+
+        </div>
+      </div>
     </section>
 
     <section id="skills">
@@ -149,37 +189,46 @@ Looking ahead, I am working on building a brand called DPIlabs, with the goal of
       <div class="skill-category">
         <h3>Programming & Software Development</h3>
         <ul>
-          <li><strong>Python</strong> – data analysis, scripting, automation, and building tools like a Wordle solver and ASCII art converter</li>
-          <li><strong>Arduino C++ & MicroPython</strong> – embedded systems, SPI communication, prototyping hardware projects including an ultralight gaming mouse</li>
-          <li><strong>Web Development</strong> – HTML, CSS, and JavaScript; designed responsive layouts and web interfaces</li>
-          <li><strong>Software Tools & Libraries</strong> – experience with libraries like <em>Pillow</em>, <em>NumPy</em>, and <em>Adafruit HID</em> for practical projects</li>
+          <li><strong>Python</strong> - data analysis, scripting, automation</li>
+          <li><strong>Arduino C++ & MicroPython</strong> - embedded systems, SPI communication</li>
+          <li><strong>Web Development</strong> - HTML, CSS, JavaScript, Typescript and React.js</li>
+          <li><strong>Mathematical moddeling</strong> - Python and Matlab</li>
         </ul>
       </div>
 
       <div class="skill-category">
         <h3>Data Analysis & Visualization</h3>
         <ul>
-          <li><strong>SQL</strong> – BigQuery, advanced queries, window functions, CTEs, joins, and query optimization</li>
-          <li><strong>Excel & Power BI</strong> – building dashboards, reports, and interactive visualizations to present actionable insights</li>
-          <li><strong>Data Processing & Research</strong> – performing market analysis, trend identification, and generating data-driven recommendations</li>
+          <li><strong>SQL</strong> - BigQuery, advanced queries, window functions, CTEs, joins, and query optimization</li>
+          <li><strong>Excel & Power BI</strong> - building dashboards, reports, and interactive visualizations to present actionable insights</li>
+          <li><strong>Data Processing & Research</strong> - performing market analysis, trend identification, and generating data-driven recommendations</li>
         </ul>
       </div>
 
       <div class="skill-category">
         <h3>Hardware & Prototyping</h3>
         <ul>
-          <li><strong>PCB Design & Sensors</strong> – working with PixArt, Nordic and Raspberry Pi chips, SPI communication, microcontroller integration</li>
-          <li><strong>3D Modeling & Design</strong> – using photogrammetry to create accurate 3D models from physical prototypes, CAD refinement, and 3D printing</li>
-          <li><strong>Product Design & Prototyping</strong> – developing functional prototypes like an ultralight wireless gaming mouse and ortholinear mechanical keyboard</li>
+          <li><strong>PCB Design & Sensors</strong> - working with PixArt, Nordic and Raspberry Pi chips, SPI communication, microcontroller integration</li>
+          <li><strong>3D Modeling & Design</strong> - Photogrammetry, Blender, Autodesk CAD</li>
+          <li><strong>Product Design & Prototyping</strong> - Designing for 3d printing</li>
         </ul>
       </div>
 
       <div class="skill-category">
         <h3>Soft Skills</h3>
         <ul>
-          <li><strong>Problem Solving & Creativity</strong> – designing innovative solutions from scratch, balancing functionality with minimalistic design</li>
-          <li><strong>Communication & Teamwork</strong> – presenting insights, collaborating on projects, and coordinating events such as esports tournaments</li>
-          <li><strong>Project Management</strong> – taking projects from concept to prototype, including planning, iteration, and testing</li>
+          <li><strong>Problem Solving & Creativity</strong> - designing innovative solutions from scratch, balancing functionality with minimalistic design</li>
+          <li><strong>Communication & Teamwork</strong> - presenting insights, collaborating on projects, and coordinating events</li>
+          <li><strong>Project Management</strong> - taking projects from concept to prototype, including planning, iteration, and testing</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>Cybersecurity and Linux</h3>
+        <ul>
+          <li><strong>TryHackMe SAL1</strong> - I've compleated the SAL1 course on TryHackMe </li>
+          <li><strong>Networking</strong> - I'm proficient with tools like Wireshark and Snort, as well as comfortable with dashboards like Splunk</li>
+          <li><strong>Linux</strong> - I've built a homelab for photo backups and hosting websites, servers and chatrooms. I've also in collaboration built custom linux rice and built tools like study timers from the ground up</li>
         </ul>
       </div>
     </section>
